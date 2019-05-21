@@ -1,0 +1,14 @@
+﻿<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="io.github.aeternia-ua/SMM-Simulator" versionCode="10" version="1.0.0">
+ <!--  versionCode is optional and Android only  -->
+<name>SMM-симулятор</name>
+<description> Інтерактивна гра "SMM-симулятор". </description>
+<author href="https://www.facebook.com/Aeternia" email="gherasymuk@gmail.com"> Ірина Герасимук </author>
+ <!--  Only build for needed platforms  -->
+<gap:platform name="ios"/>
+<gap:platform name="android"/>
+<gap:platform name="winphone"/>
+ <!--  Define app icon for each platform.  -->
+<icon src="icon.png" platform="android" width="180" height="180"/>
+<icon src="icon.png" platform="ios" width="180" height="180"/>
+<icon src="icon.png" platform="winphone" width="180" height="180"/>
+</widget>
